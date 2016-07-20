@@ -1,7 +1,7 @@
 {
   "name": "parse-comm",
-  "version": "0.0.1",
-  "description": "",
+  "version": "2.0.0",
+  "description": "``` javascript npm i --save parse-comm ```",
   "main": "./dist/index.js",
   "scripts": {
     "test": "babel-node ./src/index.test.js | faucet",
@@ -37,5 +37,16 @@
     "presets": [
       "es2015"
     ]
-  }
+  },
+  "dependencies": {
+    "string-concluding": "2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerbf/parse-comm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerbf/parse-comm/issues"
+  },
+  "homepage": "https://github.com/rogerbf/parse-comm#readme"
 }
