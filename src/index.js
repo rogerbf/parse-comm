@@ -1,7 +1,6 @@
 const concluding = require('string-concluding')
 
 function parser (path) {
-  console.log(typeof path)
   if (typeof path !== 'string') throw new Error('expected a string')
   if (path.slice(-4) === '.app') {
     return path

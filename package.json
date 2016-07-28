@@ -1,7 +1,7 @@
 {
   "name": "parse-comm",
-  "version": "2.0.0",
-  "description": "``` javascript npm i --save parse-comm ```",
+  "version": "2.0.1",
+  "description": "parse comm field from ps output",
   "main": "./dist/index.js",
   "scripts": {
     "test": "babel-node ./src/index.test.js | faucet",
